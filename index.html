@@ -1,0 +1,65 @@
+<!-- Section Sensibilisation -->
+<section id="sensibilisation">
+    <h2 id="awareness-title">Sensibilisation & Information</h2>
+    
+    <div class="awareness-card">
+        <h3>Saviez-vous que ?</h3>
+        <p>Les enfants qui bénéficient d'un environnement familial stable réussissent mieux à l'école.</p>
+        <button class="source-btn" onclick="showSource('source1')">Voir la source</button>
+        <div id="source1" class="source" style="display:none;">
+            <p>Étude INSERM 2022 - Lien vers PDF</p>
+        </div>
+    </div>
+
+    <div class="awareness-card">
+        <h3>L'importance de l'écoute</h3>
+        <p>Un enfant écouté est un enfant qui ose s'exprimer à l'école.</p>
+        <img src="assets/images/ecoute.jpg" alt="Parent écoutant son enfant" width="300">
+    </div>
+</section>
+
+<!-- Section Conseils Pratiques -->
+<section id="conseils">
+    <h2 id="tips-title">Conseils pour Parents</h2>
+    
+    <div class="tip-card">
+        <h4>3 habitudes du soir</h4>
+        <ol>
+            <li>Lecture ensemble</li>
+            <li>Préparation du sac</li>
+            <li>Discussion sur la journée</li>
+        </ol>
+    </div>
+
+    <div class="tip-card">
+        <h4>Créer un coin devoirs</h4>
+        <ul>
+            <li>Calme</li>
+            <li>Bien éclairé</li>
+            <li>Sans distractions</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Section Interactive -->
+<section id="interactif">
+    <h2 id="interactive-title">Espace Interactif</h2>
+    
+    <div class="poll">
+        <h4>Sondage : Temps des devoirs</h4>
+        <form>
+            <input type="radio" name="poll" value="30min"> Moins de 30 min<br>
+            <input type="radio" name="poll" value="1h"> 30 min à 1h<br>
+            <input type="radio" name="poll" value="+1h"> Plus d'1h<br>
+            <button type="button" onclick="submitPoll()">Voter</button>
+        </form>
+    </div>
+
+    <div class="quiz">
+        <h4>Quiz rapide</h4>
+        <p>Quel est le facteur le plus déterminant ?</p>
+        <button class="quiz-option">a) Le niveau des profs</button>
+        <button class="quiz-option">b) Le soutien familial</button>
+        <button class="quiz-option">c) Les notes précédentes</button>
+    </div>
+</section>
